@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a35">
+  <meta name="description" content="Ôn tập 200 câu hỏi trắc nghiệm Hệ điều hành Windows, Linux và Unix theo chương hoặc tổng hợp.">
+  <title>Ôn tập Hệ điều hành Windows · Linux · Unix</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23101a35'/%3E%3Cpath d='M13 18h38v6H13zm0 11h27v6H13zm0 11h38v6H13z' fill='%237bd6d0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">OS</span><span>Ôn tập Hệ điều hành</span></div>
+      <span class="header-count">200 câu hỏi <span aria-hidden="true">·</span> 8 chương</span>
+    </div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Chọn chế độ ôn tập">
+      <div class="sidebar-head"><span class="section-kicker">BỘ CÂU HỎI</span><h2>Chọn nội dung ôn</h2></div>
+      <button id="mode-toggle" class="mode-toggle" type="button" aria-expanded="false" aria-controls="mode-list">Đổi chương hoặc ôn tổng hợp</button>
+      <div id="mode-list" class="mode-list"><p class="loading-small">Đang tải câu hỏi...</p></div>
+      <p class="source-note">Câu hỏi theo tài liệu “Ngân hàng 200 câu hỏi Windows, Linux, Unix”.</p>
+    </aside>
+    <main class="main-content" id="main-content"><div class="loading-card" role="status">Đang tải bộ câu hỏi...</div></main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2256 @@
+[
+  {
+    "id": 1,
+    "title": "Giới thiệu các hệ điều hành Microsoft Windows",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Chương trình thực thi lệnh của Command Prompt trong Windows là gì?",
+        "options": {
+          "A": "cmd.exe",
+          "B": "command.com",
+          "C": "powershell",
+          "D": "Start.exe"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Trong Windows chương trình cho phép theo dõi tình trạng sử dụng tài nguyên của các chương trình và người dùng",
+        "options": {
+          "A": "taskmanager.exe",
+          "B": "tasklist.exe",
+          "C": "taskmgr.exe",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "text": "Thành phần nào trực tiếp điều khiển và giao tiếp với thiết bị phần cứng trong Windows?",
+        "options": {
+          "A": "Kernel",
+          "B": "Subsystem DLL",
+          "C": "HAL",
+          "D": "Device Driver"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 4,
+        "text": "Trong mô hình chủ/khách, máy tính cung cấp dịch vụ được gọi là",
+        "options": {
+          "A": "máy chủ",
+          "B": "máy khách",
+          "C": "máy trạm",
+          "D": "Tất cả các lựa chọn đều đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "text": "Trong Registry, kiểu dữ liệu REG_SZ dùng để lưu loại dữ liệu nào?",
+        "options": {
+          "A": "Tài liệu XML",
+          "B": "Siêu văn bản",
+          "C": "Chuỗi ký tự",
+          "D": "Tệp thực thi"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 6,
+        "text": "Windows PowerShell cung cấp giao diện dòng lệnh với các nhóm lệnh được xây dựng trước gọi là",
+        "options": {
+          "A": "cmd",
+          "B": "script",
+          "C": "cmdlet",
+          "D": "scriptlet"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 7,
+        "text": "Phương pháp đăng nhập một lần trong Windows được gọi là gì?",
+        "options": {
+          "A": "Single Access Login",
+          "B": "Multi-Factor Login",
+          "C": "Single Sign-On (SSO)",
+          "D": "Universal Access"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 8,
+        "text": "PowerShell hỗ trợ tự động hóa thông qua thành phần nào?",
+        "options": {
+          "A": "NTFS",
+          "B": "Script",
+          "C": "Tệp DLL",
+          "D": "Registry hive"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 9,
+        "text": "Kiểu dữ liệu nào trong Registry biểu diễn dữ liệu nhị phân?",
+        "options": {
+          "A": "REG_BINARY",
+          "B": "REG_MULTI_SZ",
+          "C": "REG_DWORD",
+          "D": "REG_SZ"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 10,
+        "text": "Giao thức nào được Windows sử dụng phổ biến để chia sẻ tệp trong mạng nội bộ?",
+        "options": {
+          "A": "SMB",
+          "B": "NFS",
+          "C": "HTTP",
+          "D": "FTP"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 11,
+        "text": "Chế độ thực thi nào dành cho nhân hệ điều hành Windows?",
+        "options": {
+          "A": "Chế độ quản trị",
+          "B": "Chế độ ứng dụng",
+          "C": "Kernel Mode",
+          "D": "User Mode"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 12,
+        "text": "Registry Editor regedit.exe cho phép thực hiện công việc nào?",
+        "options": {
+          "A": "Xóa tệp rác",
+          "B": "Cài đặt mọi driver tự động",
+          "C": "Tăng tốc độ mạng",
+          "D": "Xem và thay đổi cấu hình được lưu trong Registry"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 13,
+        "text": "Group Policy Object có thể áp dụng cho đối tượng nào?",
+        "options": {
+          "A": "Máy tính",
+          "B": "Tài khoản người dùng",
+          "C": "Cả người dùng và máy tính",
+          "D": "Chỉ domain controller"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 14,
+        "text": "Hệ thống tệp nào trong các lựa chọn sau hỗ trợ lưu trữ trên phân vùng lớn hơn 2 TB?",
+        "options": {
+          "A": "DOS",
+          "B": "FAT32",
+          "C": "NTFS",
+          "D": "FAT16"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 15,
+        "text": "Khóa nào lưu thông tin của người dùng hiện tại trong Windows Registry?",
+        "options": {
+          "A": "HKEY_CLASSES_ROOT",
+          "B": "HKEY_LOCAL_MACHINE",
+          "C": "HKEY_USERS",
+          "D": "HKEY_CURRENT_USER"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 16,
+        "text": "Trong kiến trúc Windows NT, thành phần nào cung cấp môi trường tương thích cho các ứng dụng thuộc hệ điều hành khác?",
+        "options": {
+          "A": "Kernel",
+          "B": "Executive",
+          "C": "Environment Subsystem",
+          "D": "HAL"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 17,
+        "text": "Công cụ nào được dùng để cấu hình hạn ngạch lưu trữ và sàng lọc tệp trên Windows Server?",
+        "options": {
+          "A": "File Server Resource Manager",
+          "B": "Disk Cleanup",
+          "C": "Task Manager",
+          "D": "NTFS Configurator"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 18,
+        "text": "Công cụ nào thường được dùng để giám sát nhanh tiến trình và tài nguyên hệ thống Windows?",
+        "options": {
+          "A": "Task Manager",
+          "B": "regedit.exe",
+          "C": "File Explorer",
+          "D": "Disk Management"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 19,
+        "text": "File system journaling có vai trò chính là gì?",
+        "options": {
+          "A": "Tăng tốc mọi thao tác ghi",
+          "B": "Ghi nhật ký thay đổi để hỗ trợ phục hồi tính nhất quán",
+          "C": "Tự động chống phân mảnh",
+          "D": "Lưu tạm dữ liệu trước khi xóa"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 20,
+        "text": "Công cụ nào trong môi trường miền Windows dùng để quản lý người dùng và máy tính?",
+        "options": {
+          "A": "Task Manager",
+          "B": "Disk Management",
+          "C": "User Account Manager",
+          "D": "Active Directory Users and Computers"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 21,
+        "text": "Hệ thống tệp nào hỗ trợ quyền truy cập chi tiết và EFS?",
+        "options": {
+          "A": "exFAT",
+          "B": "NTFS",
+          "C": "FAT16",
+          "D": "FAT32"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 22,
+        "text": "Kernel Mode có đặc điểm nào?",
+        "options": {
+          "A": "Chỉ hiển thị giao diện đồ họa",
+          "B": "Chỉ thực thi lệnh CMD",
+          "C": "Cho phép mã hệ thống truy cập trực tiếp tài nguyên phần cứng",
+          "D": "Chỉ quản lý tài khoản người dùng"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 23,
+        "text": "Hệ điều hành Windows nào lần đầu tích hợp Active Directory?",
+        "options": {
+          "A": "Windows 95",
+          "B": "Windows 2000",
+          "C": "Windows NT 3.1",
+          "D": "Windows XP"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 24,
+        "text": "Dịch vụ nào hỗ trợ người dùng kết nối và làm việc từ xa trên máy Windows?",
+        "options": {
+          "A": "VPN",
+          "B": "DFS",
+          "C": "Remote Desktop Services",
+          "D": "SMB"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 25,
+        "text": "NTFS Permissions dùng để làm gì?",
+        "options": {
+          "A": "Kiểm soát quyền truy cập tệp và thư mục",
+          "B": "Chỉ chia sẻ thư mục qua mạng",
+          "C": "Gỡ bỏ ứng dụng",
+          "D": "Chỉ nén dữ liệu"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cài đặt và quản trị Windows Server",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Chức năng mới trong Windows 2008 cho phép lựa chọn cài đặt môi trường tối thiểu để chạy các dịch vụ và chức năng (role) cụ thể là",
+        "options": {
+          "A": "Server core",
+          "B": "Minimal Installation",
+          "C": "Command line installation",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Để giữ lại các thông tin cài đặt của phiên bản trước, khi cài Windows Server ta chọn",
+        "options": {
+          "A": "Upgrade",
+          "B": "Custom",
+          "C": "Advanced",
+          "D": "Clean Install"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "text": "Lệnh ping nhận được phản hồi thành công cho biết điều gì?",
+        "options": {
+          "A": "Có thể liên lạc với thiết bị đích bằng ICMP tại thời điểm kiểm tra",
+          "B": "Dịch vụ Web trên thiết bị đích đang hoạt động",
+          "C": "Đường truyền hoàn toàn không có lỗi",
+          "D": "Thiết bị đích đang chạy Windows"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "text": "Trong Windows, lệnh ipconfig dùng để làm gì?",
+        "options": {
+          "A": "Hiển thị thông tin cấu hình TCP/IP của máy tính",
+          "B": "Kiểm tra một máy chủ Web",
+          "C": "Liệt kê các tệp đang chia sẻ",
+          "D": "Tạo tài khoản người dùng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "text": "Cài đặt Windows Server nên gán địa chỉ IP cho máy chủ là",
+        "options": {
+          "A": "Địa chỉ tĩnh",
+          "B": "Địa chỉ động",
+          "C": "Địa chỉ APIPA",
+          "D": "Địa chỉ quảng bá"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 6,
+        "text": "Để cấp lại địa chỉ Internet động cho máy tính dùng tham số sau với câu lệnh ipconfig trong windows",
+        "options": {
+          "A": "/renew",
+          "B": "/new",
+          "C": "/newlease",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 7,
+        "text": "Công cụ chủ yếu dùng để đặt cấu hình cho môi trường làm việc và các thiết bị phần cứng là",
+        "options": {
+          "A": "Control Panel",
+          "B": "Device manager",
+          "C": "Computer manager",
+          "D": "System Manager"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 8,
+        "text": "Tài khoản tạo sẵn nào cho toàn quyền truy nhập vào hệ thống",
+        "options": {
+          "A": "Local System",
+          "B": "Local Service",
+          "C": "Local User",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 9,
+        "text": "Lựa chọn nào là một chế độ khởi động hợp lệ của dịch vụ trong Windows Server?",
+        "options": {
+          "A": "Automatic",
+          "B": "Stop",
+          "C": "Start",
+          "D": "Pause"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 10,
+        "text": "Trong Device Manager, dấu chấm than màu vàng thường cho biết điều gì?",
+        "options": {
+          "A": "Thiết bị đã bị vô hiệu hóa",
+          "B": "Thiết bị gặp sự cố, thường do trình điều khiển hoặc tài nguyên",
+          "C": "Thiết bị đã hỏng hoàn toàn",
+          "D": "Thiết bị đang hoạt động bình thường"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 11,
+        "text": "Để thêm một máy tính vào miền quản trị bởi Windows cần",
+        "options": {
+          "A": "Tài khoản quản trị máy tính",
+          "B": "Tài khoản người dùng",
+          "C": "Tài khoản quản trị miền",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "C",
+        "note": "Theo các lựa chọn của đề, chọn C. Trong thực tế, người có quyền được ủy quyền phù hợp vẫn có thể đưa máy vào domain; không bắt buộc là Domain Admin. Máy cũng cần quyền quản trị cục bộ để thực hiện thao tác.",
+        "reference": {
+          "label": "Microsoft Learn: quyền gia nhập domain",
+          "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/active-directory-domain-join-permissions"
+        }
+      },
+      {
+        "number": 12,
+        "text": "Người quản trị hệ thống Windows không phải gán các tham số IRQ, DMA, địa chỉ cổng hay địa chỉ ô nhớ cho thiết bị là nhờ",
+        "options": {
+          "A": "Chương trình Device Manager",
+          "B": "Plug and Play",
+          "C": "Computer manager",
+          "D": "Server Manager"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 13,
+        "text": "Để cài đặt tính năng RAID trong Windows, sử dụng Disk Management để định dạng ổ cứng thành",
+        "options": {
+          "A": "Ổ đĩa cơ bản (Basic Disk)",
+          "B": "Ổ đĩa động (Dynamic Disk)",
+          "C": "Ổ đĩa GPT (GPT Disk)",
+          "D": "Ổ đĩa RAID"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 14,
+        "text": "Để tạo phân vùng (partition) có dung lượng lớn hơn 2TB dùng",
+        "options": {
+          "A": "GPT",
+          "B": "MBR",
+          "C": "Spanned Volume",
+          "D": "Striped Volume"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 15,
+        "text": "Loại ổ đĩa nào cung cấp hiệu năng tốt nhất và phù hợp cho môi trường máy chủ",
+        "options": {
+          "A": "SATA",
+          "B": "USB 3.0",
+          "C": "SCSI",
+          "D": "DVD"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 16,
+        "text": "Để cài đặt các chương trình hay đoạn mã kích hoạt khi người dùng đăng nhập hay đăng xuất, người quản trị sử dụng chức năng nào trong Group policy",
+        "options": {
+          "A": "System settings",
+          "B": "Sofware Settings",
+          "C": "Scripts settings",
+          "D": "Computer Settings"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 17,
+        "text": "Tài khoản miền Domain Account được sử dụng chủ yếu để làm gì?",
+        "options": {
+          "A": "Quản lý riêng thiết bị ngoại vi",
+          "B": "Kết nối với mọi mạng công cộng",
+          "C": "Đăng nhập và sử dụng tài nguyên trong một miền Active Directory",
+          "D": "Chỉ truy cập tài nguyên cục bộ"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 18,
+        "text": "Thuộc tính nào giúp bảo vệ trực tiếp việc đăng nhập của tài khoản người dùng?",
+        "options": {
+          "A": "Mật khẩu mạnh",
+          "B": "Địa chỉ email",
+          "C": "Tên máy tính",
+          "D": "Địa chỉ IP"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 19,
+        "text": "Máy chủ server được thiết kế chủ yếu để làm gì?",
+        "options": {
+          "A": "Chỉ hỗ trợ thiết bị di động",
+          "B": "Chỉ lưu tài liệu cá nhân",
+          "C": "Cung cấp dịch vụ và chạy ứng dụng phục vụ nhiều máy khách",
+          "D": "Chỉ hiển thị giao diện đẹp"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 20,
+        "text": "Quyền NTFS nào cho phép sửa nội dung nhưng không mặc nhiên cho phép thay đổi quyền hoặc chiếm quyền sở hữu?",
+        "options": {
+          "A": "Read",
+          "B": "Full Control",
+          "C": "Read and Execute",
+          "D": "Modify"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 21,
+        "text": "Vai trò chính của Hyper-V là gì?",
+        "options": {
+          "A": "Quản lý máy in",
+          "B": "Sao lưu tệp",
+          "C": "Cấu hình DNS",
+          "D": "Tạo và quản lý máy ảo"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 22,
+        "text": "Giao thức nào được Active Directory sử dụng mặc định để xác thực trong miền?",
+        "options": {
+          "A": "Kerberos",
+          "B": "DHCP",
+          "C": "FTP",
+          "D": "DNS"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 23,
+        "text": "Group Policy trong Windows dùng để làm gì?",
+        "options": {
+          "A": "Phân vùng ổ đĩa",
+          "B": "Quản lý vật lý ổ cứng",
+          "C": "Kiểm soát tập trung môi trường làm việc của người dùng và máy tính",
+          "D": "Thay thế dịch vụ DNS"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 24,
+        "text": "Reverse Lookup Zone của DNS dùng để làm gì?",
+        "options": {
+          "A": "Lưu tài khoản miền",
+          "B": "Tra cứu tên máy từ địa chỉ IP",
+          "C": "Tra cứu địa chỉ IP từ tên máy",
+          "D": "Gán cổng cho dịch vụ"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 25,
+        "text": "Một GPO có thể được liên kết trực tiếp ở cấp nào?",
+        "options": {
+          "A": "DNS record",
+          "B": "Ổ đĩa",
+          "C": "Site",
+          "D": "Card mạng"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dịch vụ mạng trên Windows Server",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Công cụ quản trị Group Policy của Windows Server chủ yếu cho phép thực hiện công việc nào?",
+        "options": {
+          "A": "Quản lý tập trung cấu hình người dùng, máy tính và triển khai ứng dụng",
+          "B": "Quản lý riêng các bản ghi DNS",
+          "C": "Quản lý các hàng đợi in",
+          "D": "Tạo phân vùng ổ đĩa"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Active Directory phụ thuộc chặt chẽ vào dịch vụ DNS để phân giải tên và tìm bộ điều khiển miền.",
+        "options": {
+          "A": "Đúng",
+          "B": "Sai"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "text": "Bản ghi cung cấp ánh xạ từ tên máy ra địa chỉ IP là",
+        "options": {
+          "A": "PTR",
+          "B": "NS",
+          "C": "A",
+          "D": "CNAME"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "text": "Bản ghi PTR cho biết",
+        "options": {
+          "A": "Tên máy chủ ứng với địa chỉ IP",
+          "B": "Dịch vụ máy chủ ứng với địa chỉ IP",
+          "C": "Tên máy chủ",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "text": "Khi máy Windows tự nhận địa chỉ APIPA thuộc dải 169.254.0.0/16, nguyên nhân thường gặp là gì?",
+        "options": {
+          "A": "Máy đang sử dụng địa chỉ IP công cộng",
+          "B": "Máy không nhận được phản hồi từ máy chủ DHCP",
+          "C": "Máy đã phân giải DNS thành công",
+          "D": "Máy đã gia nhập miền"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 6,
+        "text": "Với mạng 192.168.1.0/24, nếu dành các địa chỉ từ 192.168.1.1 đến 192.168.1.31 cho máy chủ và thiết bị dự phòng, dải DHCP hợp lệ còn lại là gì?",
+        "options": {
+          "A": "192.168.1.32–192.168.1.255",
+          "B": "192.168.1.33–192.168.1.255",
+          "C": "192.168.1.32–192.168.1.254",
+          "D": "192.168.1.33–192.168.1.254"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 7,
+        "text": "Trong của sổ quản lý DHCP của Windows Server mục cho biết thông tin cấp phát địa chỉ IP cho các máy là",
+        "options": {
+          "A": "Address Pool",
+          "B": "Address Leases",
+          "C": "Address Reservations",
+          "D": "Scope Options"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 8,
+        "text": "Trong môi trường Windows Server giao thức dùng để truy vấn và thay đổi dữ liệu sử dụng dịch vụ thư mục mạng chạy trên nền TCP/IP là",
+        "options": {
+          "A": "LDAP",
+          "B": "NFS",
+          "C": "NIS",
+          "D": "SMB"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 9,
+        "text": "Active Directory mặc định sử dụng giao thức nào để xác thực người dùng trong miền?",
+        "options": {
+          "A": "Mật khẩu dạng văn bản thuần",
+          "B": "Kerberos",
+          "C": "Xác thực hai bước",
+          "D": "RADIUS"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 10,
+        "text": "Công cụ quản lý người dùng và máy tính",
+        "options": {
+          "A": "Active Directory Users and Computers",
+          "B": "Active Directory Administrative Center",
+          "C": "Active Directory Domains and Trusts",
+          "D": "DNS Manager"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 11,
+        "text": "Những miền (domain) khác nhau mà có chung không gian định danh gọi là",
+        "options": {
+          "A": "Tập hợp miền",
+          "B": "Rừng",
+          "C": "Cây",
+          "D": "Đơn vị tổ chức"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 12,
+        "text": "Trong Active Directory, các máy tính trong cùng một mạng con IP kết nối với nhau gọi là",
+        "options": {
+          "A": "Site",
+          "B": "Miền",
+          "C": "Workgroup",
+          "D": "Forest"
+        },
+        "answer": "A",
+        "note": "Trong Active Directory, một site có thể gồm một hoặc nhiều mạng con IP kết nối nhanh và ổn định; đây là cách diễn đạt gần đúng nhất trong các lựa chọn.",
+        "reference": {
+          "label": "Microsoft Learn: Active Directory site",
+          "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/replication/active-directory-replication-concepts"
+        }
+      },
+      {
+        "number": 13,
+        "text": "Active Directory tổ chức hạ tầng logic theo cấu trúc nào?",
+        "options": {
+          "A": "Dịch vụ và ứng dụng",
+          "B": "Ổ đĩa và thư mục",
+          "C": "Tệp và phân vùng",
+          "D": "Domain, tree và forest"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 14,
+        "text": "Trong Active Directory, đối tượng bảo mật như tài khoản người dùng hoặc máy tính được nhận diện duy nhất bằng giá trị nào?",
+        "options": {
+          "A": "Security Identifier SID",
+          "B": "Tên hiển thị",
+          "C": "Số thứ tự tạo tài khoản",
+          "D": "Địa chỉ IP"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 15,
+        "text": "Theo mặc định, dịch vụ HTTP của IIS lắng nghe trên cổng nào?",
+        "options": {
+          "A": "80",
+          "B": "8001",
+          "C": "8080",
+          "D": "443"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 16,
+        "text": "Khi người dùng truy cập thư mục chia sẻ qua mạng, quyền truy cập hiệu lực chịu tác động của những loại quyền nào?",
+        "options": {
+          "A": "Chỉ quyền chia sẻ",
+          "B": "Chỉ quyền NTFS",
+          "C": "Cả quyền chia sẻ và quyền NTFS",
+          "D": "Chỉ quyền của nhóm Everyone"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 17,
+        "text": "Để máy khách có thể gửi lệnh in đúng định dạng đến máy in được chia sẻ, thành phần nào cần được cài đặt?",
+        "options": {
+          "A": "Trình điều khiển máy in",
+          "B": "Một máy chủ in thứ hai",
+          "C": "Trình quản lý máy in riêng",
+          "D": "Dịch vụ DNS Server"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 18,
+        "text": "Khi thêm một máy in mạng bằng Standard TCP/IP Port trong Windows Server, thông tin quan trọng nhất cần biết là gì?",
+        "options": {
+          "A": "Tên người đang sử dụng máy in",
+          "B": "Địa chỉ IP của máy chủ DNS",
+          "C": "Địa chỉ IP hoặc tên máy chủ của máy in",
+          "D": "Tên miền Active Directory"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 19,
+        "text": "Công cụ trung tâm nào trên Windows Server hỗ trợ cài đặt và theo dõi các role dịch vụ?",
+        "options": {
+          "A": "Event Viewer",
+          "B": "Task Scheduler",
+          "C": "Server Manager",
+          "D": "Disk Management"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 20,
+        "text": "Bản ghi CNAME trong DNS dùng để làm gì?",
+        "options": {
+          "A": "Tạo bí danh cho một tên miền",
+          "B": "Chỉ định máy chủ DNS",
+          "C": "Ánh xạ IP sang tên",
+          "D": "Cấp IP động"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 21,
+        "text": "Bản ghi SOA chứa loại thông tin nào?",
+        "options": {
+          "A": "Bí danh miền",
+          "B": "Địa chỉ IP của mọi máy khách",
+          "C": "Thông tin thẩm quyền và tham số của DNS zone",
+          "D": "Danh sách máy chủ thư"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 22,
+        "text": "Secondary Zone có chức năng gì?",
+        "options": {
+          "A": "Chứa bản có thể chỉnh sửa độc lập",
+          "B": "Quản lý DHCP scope",
+          "C": "Duy trì bản sao chỉ đọc được truyền từ primary zone",
+          "D": "Cấp địa chỉ IP"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 23,
+        "text": "Trong DHCP, exclusion range là gì?",
+        "options": {
+          "A": "Dải địa chỉ dành cho DNS",
+          "B": "Các địa chỉ trong scope không được DHCP cấp động",
+          "C": "Toàn bộ dải cấp động",
+          "D": "Địa chỉ multicast"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 24,
+        "text": "Bản ghi MX chỉ định thông tin gì?",
+        "options": {
+          "A": "Dịch vụ bất kỳ",
+          "B": "Primary DNS",
+          "C": "Máy chủ nhận thư của miền",
+          "D": "Địa chỉ IPv4"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 25,
+        "text": "Công cụ dòng lệnh nào thường dùng để kiểm tra truy vấn DNS?",
+        "options": {
+          "A": "diskpart",
+          "B": "tasklist",
+          "C": "perfmon",
+          "D": "nslookup"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bảo mật, giám sát, sao lưu và khôi phục Windows",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Chức năng chính của Windows Update trên Windows Server là gì?",
+        "options": {
+          "A": "Tải và cài đặt các bản cập nhật, bản vá bảo mật của Microsoft",
+          "B": "Cài đặt mọi phần mềm ứng dụng mới nhất",
+          "C": "Thay thế phần mềm chống virus chuyên dụng",
+          "D": "Tự động nâng cấp phần cứng máy chủ"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Để duy trì an toàn cho Windows Server, quản trị viên nên thực hiện công việc nào?",
+        "options": {
+          "A": "Chỉ cài Service Pack, không cần bản vá khác",
+          "B": "Theo dõi, kiểm thử và cài đặt kịp thời các bản vá phù hợp",
+          "C": "Tắt Windows Update hoàn toàn",
+          "D": "Chỉ cập nhật khi hệ thống đã gặp sự cố"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "text": "Một bản sao lưu toàn bộ Full Backup chứa nội dung nào?",
+        "options": {
+          "A": "Chỉ các tệp chương trình",
+          "B": "Toàn bộ dữ liệu được chọn trong phạm vi sao lưu",
+          "C": "Chỉ cơ sở dữ liệu",
+          "D": "Chỉ các tệp thay đổi từ lần sao lưu gần nhất"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "text": "Phương pháp sao lưu nào duy trì bản sao dữ liệu sẵn sàng trực tuyến để rút ngắn thời gian khôi phục?",
+        "options": {
+          "A": "Sao lưu trực tuyến",
+          "B": "Lưu trữ băng từ ngoại vi",
+          "C": "Sao lưu tăng dần",
+          "D": "Sao lưu trên đĩa quang"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "text": "Phương pháp sao lưu nào cần nhiều dung lượng lưu trữ hơn cả",
+        "options": {
+          "A": "Toàn bộ",
+          "B": "Tăng dần",
+          "C": "Khác biệt",
+          "D": "Nhật ký giao dịch"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 6,
+        "text": "Bước quan trọng đầu tiên trong việc phát hiện và khắc phục sự cố trong Windows Server là",
+        "options": {
+          "A": "Xác định các thông báo và ghi lại các triệu chứng",
+          "B": "Đánh giá và tìm hiểu các thay đổi cấu hình của hệ thống",
+          "C": "Chạy phần mềm kiểm tra",
+          "D": "Tất cả các lựa chọn đều đúng"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 7,
+        "text": "Trong Windows Server để kích hoạt cơ chế kiểm toán sử dụng",
+        "options": {
+          "A": "Server Administrative Tool",
+          "B": "Active Directory Administrative",
+          "C": "Group Policy",
+          "D": "Domain Policy"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 8,
+        "text": "Công cụ nào cho phép quản trị viên đăng nhập và điều khiển phiên làm việc trên máy tính Windows ở xa qua mạng?",
+        "options": {
+          "A": "Remote Assistance",
+          "B": "Remote Service",
+          "C": "Remote Desktop",
+          "D": "Windows Update"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 9,
+        "text": "Trong Event Viewer của Windows, loại sự kiện nào thường được ghi trong nhật ký Security để quản trị viên theo dõi hành vi đáng ngờ?",
+        "options": {
+          "A": "Sự kiện khởi động lại máy",
+          "B": "Người dùng thay đổi hình nền",
+          "C": "Các lần đăng nhập thành công và không thành công",
+          "D": "Cài đặt trình điều khiển máy in"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 10,
+        "text": "Theo cấu hình mặc định của Windows Firewall with Advanced Security, kết nối đến máy tính được xử lý như thế nào?",
+        "options": {
+          "A": "Chỉ cho phép máy tính trong mạng nội bộ",
+          "B": "Tự động cho phép mọi kết nối đã mã hóa",
+          "C": "Chỉ cho phép cổng 80 và 443",
+          "D": "Chặn kết nối đến nếu không có quy tắc cho phép"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 11,
+        "text": "Tường lửa không thể ngăn chặn hiệu quả loại nguy cơ nào sau đây?",
+        "options": {
+          "A": "Nguy cơ xuất phát từ người dùng hoặc thiết bị bên trong mạng",
+          "B": "Kết nối trái phép từ Internet vào cổng bị chặn",
+          "C": "Lưu lượng từ địa chỉ nằm trong danh sách chặn",
+          "D": "Truy cập đến dịch vụ không được cho phép"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 12,
+        "text": "Chức năng chính của BitLocker trên Windows là gì?",
+        "options": {
+          "A": "Tạo bản sao lưu tự động cho dữ liệu",
+          "B": "Nén toàn bộ dữ liệu trên ổ đĩa",
+          "C": "Tăng tốc độ đọc ghi của ổ đĩa",
+          "D": "Mã hóa ổ đĩa để bảo vệ tính bí mật của dữ liệu"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 13,
+        "text": "IPSec thường được sử dụng để làm gì?",
+        "options": {
+          "A": "Bảo vệ thông tin liên lạc qua mạng nội bộ hoặc Internet",
+          "B": "Thiết kế giao diện website",
+          "C": "Quản lý tập tin và thư mục cục bộ",
+          "D": "Tăng tốc độ truyền dữ liệu vật lý"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 14,
+        "text": "Mục tiêu của phục hồi dữ liệu là gì?",
+        "options": {
+          "A": "Quản lý tài khoản",
+          "B": "Lấy lại dữ liệu sau mất mát hoặc sự cố",
+          "C": "Tăng tốc CPU",
+          "D": "Sao lưu DNS"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 15,
+        "text": "Windows Defender Firewall with Advanced Security cung cấp khả năng nào?",
+        "options": {
+          "A": "Cấu hình DHCP",
+          "B": "Tăng tốc CPU",
+          "C": "Quản lý chi tiết quy tắc tường lửa vào và ra",
+          "D": "Tự động sao lưu"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 16,
+        "text": "Windows Event Log có thể chứa loại thông tin nào?",
+        "options": {
+          "A": "Chỉ thời gian dùng máy",
+          "B": "Thông tin, cảnh báo, lỗi và sự kiện kiểm toán",
+          "C": "Mật khẩu tài khoản",
+          "D": "DHCP lease"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 17,
+        "text": "Công cụ nào dùng để xem và lọc nhật ký sự kiện Windows?",
+        "options": {
+          "A": "Event Viewer",
+          "B": "DHCP Manager",
+          "C": "IIS Manager",
+          "D": "Disk Management"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 18,
+        "text": "Audit Policy có thể theo dõi hành vi nào?",
+        "options": {
+          "A": "Phân phối IP",
+          "B": "Đăng nhập và thay đổi tài khoản",
+          "C": "Phục vụ trang web",
+          "D": "Phân vùng đĩa"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 19,
+        "text": "Giám sát hệ thống giúp quản trị viên thực hiện công việc nào?",
+        "options": {
+          "A": "Phát hiện lỗi và đánh giá hiệu năng",
+          "B": "Cấp phát IP",
+          "C": "Thay thế sao lưu",
+          "D": "Tạo domain"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 20,
+        "text": "Windows Server Backup hỗ trợ chức năng nào?",
+        "options": {
+          "A": "Phân phối tài nguyên mạng",
+          "B": "Mã hóa ổ đĩa",
+          "C": "Sao lưu và khôi phục dữ liệu",
+          "D": "Giám sát CPU theo thời gian thực"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 21,
+        "text": "Công cụ chuyên dụng nào theo dõi bộ đếm hiệu năng Windows?",
+        "options": {
+          "A": "Task Scheduler",
+          "B": "Disk Management",
+          "C": "Event Viewer",
+          "D": "Performance Monitor"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 22,
+        "text": "Vì sao cần cài đặt bản vá Windows phù hợp?",
+        "options": {
+          "A": "Để cấp IP",
+          "B": "Để sửa lỗi, giảm lỗ hổng và cải thiện độ ổn định",
+          "C": "Để tăng xung CPU",
+          "D": "Để tạo tài khoản"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 23,
+        "text": "Advanced Audit Policy Configuration bao gồm nhóm nội dung nào?",
+        "options": {
+          "A": "Account Management, Object Access và Detailed Tracking",
+          "B": "Disk Partitioning",
+          "C": "Web Hosting",
+          "D": "DHCP Allocation"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 24,
+        "text": "Server Manager hỗ trợ quản trị từ xa theo cách nào?",
+        "options": {
+          "A": "Chỉ mở DHCP Manager",
+          "B": "Quản lý các máy chủ đã thêm vào server pool",
+          "C": "Chỉ phân vùng đĩa",
+          "D": "Chỉ xem hiệu năng máy cục bộ"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 25,
+        "text": "Nguyên tắc nào phù hợp khi cập nhật máy chủ sản xuất?",
+        "options": {
+          "A": "Cài ngay mọi bản vá không kiểm thử",
+          "B": "Kiểm thử, lập lịch và có phương án khôi phục",
+          "C": "Tắt cập nhật vĩnh viễn",
+          "D": "Chỉ cập nhật driver đồ họa"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tổng quan hệ điều hành Linux và Unix",
+    "questions": [
+      {
+        "number": 1,
+        "text": "FSF là chữ viết tắt của",
+        "options": {
+          "A": "Free Software First",
+          "B": "Free Software Foundation",
+          "C": "Free Software File",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "text": "Bản phân phối Linux cộng đồng được Red Hat tài trợ và hỗ trợ phát triển là bản nào?",
+        "options": {
+          "A": "Fedora",
+          "B": "Slackware",
+          "C": "SUSE",
+          "D": "Knoppix"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "text": "Linus Torvalds là người khởi tạo thành phần nào sau đây?",
+        "options": {
+          "A": "Fedora",
+          "B": "Debian",
+          "C": "Slackware",
+          "D": "Nhân Linux"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 4,
+        "text": "Chức năng chính của vùng swap trong Linux là gì?",
+        "options": {
+          "A": "Lưu tệp cấu hình hệ thống",
+          "B": "Cung cấp không gian bộ nhớ ảo trên thiết bị lưu trữ",
+          "C": "Chứa riêng nhật ký hệ thống",
+          "D": "Thay thế hoàn toàn bộ nhớ RAM"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 5,
+        "text": "Unix là hệ điều hành có đặc điểm nào?",
+        "options": {
+          "A": "Chỉ được phát triển bằng mã máy",
+          "B": "Hỗ trợ đa nhiệm và đa người dùng",
+          "C": "Chỉ dành cho máy chủ Solaris",
+          "D": "Chỉ hoạt động trên máy tính cá nhân"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 6,
+        "text": "Linux ban đầu được Linus Torvalds phát triển cho loại máy tính nào?",
+        "options": {
+          "A": "Máy chủ lớn mainframe",
+          "B": "Máy trạm RISC",
+          "C": "Máy tính cá nhân dùng bộ xử lý x86",
+          "D": "Thiết bị di động"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 7,
+        "text": "Trong kiến trúc Linux, môi trường đồ họa như GNOME thuộc lớp nào?",
+        "options": {
+          "A": "Nhân hệ điều hành",
+          "B": "Trình nạp khởi động",
+          "C": "Ứng dụng và giao diện không gian người dùng",
+          "D": "Phần cứng"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 8,
+        "text": "Hệ thống tệp nào thường được Ubuntu sử dụng mặc định cho phân vùng Linux?",
+        "options": {
+          "A": "FAT32",
+          "B": "NTFS",
+          "C": "ext4",
+          "D": "exFAT"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 9,
+        "text": "Trong Linux thư mục ngầm định chứa các file và thư mục riêng của người dùng là",
+        "options": {
+          "A": "/user",
+          "B": "/home",
+          "C": "/users",
+          "D": "Tất cả các lựa chọn đều đúng"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 10,
+        "text": "Các file cấu hình của Linux ngầm định được đặt vào thư mục",
+        "options": {
+          "A": "/dev",
+          "B": "/etc",
+          "C": "/var",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 11,
+        "text": "Trong hệ thống tệp ext, thư mục lost+found thường chứa nội dung nào?",
+        "options": {
+          "A": "Các tệp người dùng đã chủ động xóa",
+          "B": "Tệp tạm của mọi ứng dụng",
+          "C": "Các tệp hoặc mảnh dữ liệu được phục hồi khi kiểm tra hệ thống tệp",
+          "D": "Bản sao của toàn bộ thư mục home"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 12,
+        "text": "NAGIOS là bộ phần mềm mã nguồn mở, được thiết kế để chạy trên nền Linux, cho phép",
+        "options": {
+          "A": "Giám sát hạ tầng hệ thống và mạng",
+          "B": "Giám sát các tài nguyên trên máy trạm",
+          "C": "Giám sát các dịch vụ mạng",
+          "D": "Tất cả các lựa chọn đều đúng"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 13,
+        "text": "Trong hệ điều hành Unix/Linux, chức năng của lớp vỏ (shell) là để",
+        "options": {
+          "A": "Xác thực người dùng hợp lệ",
+          "B": "Thông dịch câu lệnh người dùng",
+          "C": "Cấp phát bộ nhớ cho các chương trình ngd",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 14,
+        "text": "Lệnh nào ghi đè danh sách tệp, kể cả tệp ẩn, của thư mục hiện thời vào tệp content.txt?",
+        "options": {
+          "A": "ls -a > content.txt",
+          "B": "ls -a >> content.txt",
+          "C": "ls -a -> content.txt",
+          "D": "ls -a ! content.txt"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 15,
+        "text": "Để một shell script có thể được chạy trực tiếp bằng đường dẫn của nó, cần cấp quyền thực thi bằng lệnh nào?",
+        "options": {
+          "A": "sh myscript.sh",
+          "B": "chmod a+x myscript.sh",
+          "C": "shload myscript.sh",
+          "D": "chattr a+x myscript.sh"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 16,
+        "text": "Trong shell, biến đặc biệt nào chứa mã thoát của lệnh vừa thực hiện?",
+        "options": {
+          "A": "$?",
+          "B": "$!",
+          "C": "$$",
+          "D": "$#"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 17,
+        "text": "Phần quan trọng nhất của hệ điều hành Linux là:",
+        "options": {
+          "A": "File System",
+          "B": "Services",
+          "C": "Kernel",
+          "D": "Shell"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 18,
+        "text": "Kiến trúc của nhân Linux được xếp vào loại nào?",
+        "options": {
+          "A": "Nhân tĩnh không hỗ trợ mô-đun",
+          "B": "Microkernel",
+          "C": "Nhân phân tán",
+          "D": "Nhân nguyên khối có hỗ trợ mô-đun"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 19,
+        "text": "Tệp giả nào phản ánh danh sách các hệ thống tệp đang được mount trên Linux?",
+        "options": {
+          "A": "/proc/mounts",
+          "B": "/etc/mount.conf",
+          "C": "/etc/fstab",
+          "D": "/etc/modules.conf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 20,
+        "text": "Trên đĩa dùng bảng phân vùng MBR, vì sao không thể tạo phân vùng primary thứ năm?",
+        "options": {
+          "A": "Đĩa luôn thiếu dung lượng sau bốn phân vùng",
+          "B": "Bắt buộc phải tạo swap trước",
+          "C": "MBR chỉ hỗ trợ tối đa bốn phân vùng primary",
+          "D": "Linux chỉ hỗ trợ bốn phân vùng tổng cộng"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 21,
+        "text": "Nhận định nào đúng về dung lượng tối thiểu của vùng swap trên Linux hiện đại?",
+        "options": {
+          "A": "Luôn bắt buộc tối thiểu 16 MB",
+          "B": "Luôn bắt buộc tối thiểu 64 MB",
+          "C": "Luôn bắt buộc tối thiểu 128 MB",
+          "D": "Không có một mức tối thiểu cố định cho mọi hệ thống; dung lượng phụ thuộc nhu cầu"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 22,
+        "text": "Lệnh gì được sử dụng để loại bỏ một kernel module (mô-đun hạt nhân )?",
+        "options": {
+          "A": "/uninstall",
+          "B": "rm –rf",
+          "C": "rm module",
+          "D": "rmmod"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 23,
+        "text": "Muốn áp dụng hạn ngạch đĩa quota cho một thư mục, thư mục đó phải nằm trên một đối tượng nào đã bật quota?",
+        "options": {
+          "A": "Hệ thống tệp hoặc phân vùng",
+          "B": "Nhóm người dùng",
+          "C": "Tài khoản người dùng",
+          "D": "Tiến trình hệ thống"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 24,
+        "text": "Lệnh nào khởi tạo cấu trúc thư mục cache của Squid proxy?",
+        "options": {
+          "A": "squid -a",
+          "B": "squid -z",
+          "C": "squid create",
+          "D": "squid -l"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 25,
+        "text": "UNIX ban đầu được viết lại chủ yếu bằng ngôn ngữ nào, giúp tăng tính khả chuyển?",
+        "options": {
+          "A": "Java",
+          "B": "Assembly",
+          "C": "C",
+          "D": "Python"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Quản trị hệ thống Linux",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Thêm người dùng TEST vào trong Linux sử dụng câu lệnh",
+        "options": {
+          "A": "adduser -a TEST",
+          "B": "useradd TEST",
+          "C": "useradd TEST > /etc/passwd",
+          "D": "Không lựa chọn nào đúng"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "text": "Câu lệnh cho phép tạo hệ thống file trong Linux",
+        "options": {
+          "A": "fsmake",
+          "B": "fsck",
+          "C": "fdisk",
+          "D": "mkfs"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 3,
+        "text": "Lệnh nào dùng để thay đổi các nhóm bổ sung của một tài khoản người dùng?",
+        "options": {
+          "A": "usermod",
+          "B": "groupnew",
+          "C": "groupchg",
+          "D": "groupinfo"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "text": "Trong tệp /etc/passwd, ký tự x ở trường mật khẩu cho biết điều gì?",
+        "options": {
+          "A": "UID được lưu trong tệp khác",
+          "B": "Mật khẩu băm được lưu trong tệp /etc/shadow",
+          "C": "GID được mã hóa",
+          "D": "Tài khoản không có thư mục home"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 5,
+        "text": "Lệnh nào gửi tín hiệu đến một tiến trình dựa trên PID để yêu cầu chấm dứt tiến trình?",
+        "options": {
+          "A": "stop PID",
+          "B": "shutdown PID",
+          "C": "kill PID",
+          "D": "halt PID"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 6,
+        "text": "Công cụ nào thường dùng để đóng gói nhiều tệp và thư mục thành một tệp lưu trữ trên Linux?",
+        "options": {
+          "A": "backup",
+          "B": "gzip",
+          "C": "archive",
+          "D": "tar"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 7,
+        "text": "Dòng juser:x:502:1000:J User:/home/juser:/bin/bash trong /etc/passwd cho biết điều gì?",
+        "options": {
+          "A": "Người dùng juser có GID bằng 502",
+          "B": "Hệ thống sử dụng shadow password cho tài khoản juser",
+          "C": "Mọi thành viên GID 1000 đều sở hữu thư mục /home/juser",
+          "D": "Mật khẩu của juser là ký tự x"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 8,
+        "text": "Lệnh hiện đại nào dùng để xem và cấu hình địa chỉ IP của giao diện mạng trên Linux?",
+        "options": {
+          "A": "ip addr",
+          "B": "ifconfig-only",
+          "C": "netstat -r",
+          "D": "netconf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 9,
+        "text": "Trên Ubuntu Server hiện đại, cấu hình mạng cố định được lưu chủ yếu ở đâu để Netplan xử lý khi khởi động?",
+        "options": {
+          "A": "/etc/netplan/*.yaml",
+          "B": "/etc/interfaces",
+          "C": "/etc/network/interfaces.conf",
+          "D": "/etc/resolv.conf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 10,
+        "text": "Thông tin về cấu hình các ổ đĩa được nạp khi khởi động Linux được lưu trong",
+        "options": {
+          "A": "/etc/fstab",
+          "B": "/etc/hdd.conf",
+          "C": "/etc/hddtab",
+          "D": "/etc/fs.conf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 11,
+        "text": "Trong dòng cấu hình fstab “/dev/sda1 / ext4 defaults 0 1”, dấu / ở trường thứ hai có ý nghĩa gì?",
+        "options": {
+          "A": "Phân vùng /dev/sda1 được gắn tại thư mục gốc",
+          "B": "Hệ thống tệp sử dụng ext4",
+          "C": "Người dùng thường bị cấm truy cập",
+          "D": "Phân vùng chỉ được đọc"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 12,
+        "text": "Lệnh nào cấp quyền đọc ghi thực thi cho chủ sở hữu, đọc thực thi cho nhóm và không cấp quyền cho người khác đối với file.sh?",
+        "options": {
+          "A": "chmod 755 file.sh",
+          "B": "chmod 555 file.sh",
+          "C": "chmod 750 file.sh",
+          "D": "chmod 700 file.sh"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 13,
+        "text": "Lệnh nào tắt máy Linux ngay theo cách thông dụng trên hệ thống hiện đại?",
+        "options": {
+          "A": "shutdown -h now",
+          "B": "restart 0",
+          "C": "init 6",
+          "D": "reboot"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 14,
+        "text": "Công cụ nào hiển thị liên tục danh sách tiến trình và mức sử dụng tài nguyên?",
+        "options": {
+          "A": "top",
+          "B": "ps",
+          "C": "ls",
+          "D": "df"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 15,
+        "text": "Người dùng sinhvien đang đăng nhập. Lệnh ngắn nhất để trở về thư mục home của chính mình là gì?",
+        "options": {
+          "A": "cd",
+          "B": "cd /",
+          "C": "cd ..",
+          "D": "cd ./home"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 16,
+        "text": "Lệnh nào sao chép tệp /tmp/hello.txt vào thư mục /tmp/hello/?",
+        "options": {
+          "A": "copy /tmp/hello.txt /tmp/hello/",
+          "B": "cp tmp/hello.txt /tmp/hello/",
+          "C": "cp /tmp/hello /tmp/hello.txt",
+          "D": "cp /tmp/hello.txt /tmp/hello/"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 17,
+        "text": "Tập tin sau đây có thuộc tính như thế nào : -rwx--x--x hello.sh",
+        "options": {
+          "A": "077",
+          "B": "644",
+          "C": "755",
+          "D": "711"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 18,
+        "text": "Tệp /etc/passwd lưu những thông tin cơ bản nào của tài khoản?",
+        "options": {
+          "A": "Chỉ hồ sơ giao diện người dùng",
+          "B": "Tên đăng nhập, UID, GID, thư mục home và shell",
+          "C": "Mật khẩu băm của người dùng",
+          "D": "Bản sao của /etc/shadow"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 19,
+        "text": "Tệp /etc/shadow chủ yếu chứa thông tin nào?",
+        "options": {
+          "A": "Giao diện desktop của người dùng",
+          "B": "UID, GID và thư mục home",
+          "C": "Mật khẩu băm và thông tin thời hạn mật khẩu",
+          "D": "Địa chỉ mạng của người dùng"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 20,
+        "text": "Mỗi tiến trình chạy trong hệ thống Linux được đặc trưng bởi :",
+        "options": {
+          "A": "PID",
+          "B": "PUID",
+          "C": "PGUID",
+          "D": "GUID"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 21,
+        "text": "Để tìm tất cả các sự khác nhau giữa hai tập tin, ta dùng lệnh:",
+        "options": {
+          "A": "cmp",
+          "B": "diff",
+          "C": "wc",
+          "D": "Tất cả đều sai"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 22,
+        "text": "Tập tin /etc/sudoers trong Linux có chức năng gì?",
+        "options": {
+          "A": "Quy định người dùng được phép thực hiện lệnh nào thông qua sudo",
+          "B": "Lưu mật khẩu của tất cả người dùng",
+          "C": "Lưu lịch sử đăng nhập hệ thống",
+          "D": "Cấu hình địa chỉ mạng cho máy chủ"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 23,
+        "text": "Chức năng chính của PAM trong Linux là gì?",
+        "options": {
+          "A": "Quản lý dung lượng đĩa",
+          "B": "Quản lý băng thông mạng",
+          "C": "Cung cấp cơ chế xác thực linh hoạt cho người dùng và dịch vụ",
+          "D": "Quản lý tiến trình đang chạy"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 24,
+        "text": "Lệnh nào thay đổi chủ sở hữu của tập tin int1487.txt thành cuongnh và nhóm sở hữu thành d22at?",
+        "options": {
+          "A": "chown cuongnh d22at int1487.txt",
+          "B": "chown cuongnh:d22at int1487.txt",
+          "C": "chown d22at cuongnh int1487.txt",
+          "D": "chown d22at:cuongnh int1487.txt"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 25,
+        "text": "Trình nạp khởi động mặc định thường dùng trên Ubuntu là gì?",
+        "options": {
+          "A": "Windows Boot Manager",
+          "B": "GRUB",
+          "C": "LILO",
+          "D": "NTLDR"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Dịch vụ mạng trên Linux",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Loại máy chủ DNS nào lưu tạm kết quả truy vấn để trả lời nhanh cho các lần truy vấn sau?",
+        "options": {
+          "A": "Máy chủ DNS đệm caching",
+          "B": "Máy chủ DNS thứ cấp",
+          "C": "Máy chủ DHCP",
+          "D": "Máy chủ Web"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Trên Ubuntu dùng ISC DHCP Server, thông tin lease thường được lưu trong tệp nào?",
+        "options": {
+          "A": "/etc/dhcp/dhcpd.leases",
+          "B": "/var/lib/dhcp/dhcpd.leases",
+          "C": "/var/log/dhcpd.leases",
+          "D": "/etc/dhcp/dhcpd.conf"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "text": "Tệp cấu hình chính của Apache2 trên Ubuntu Server hiện đại là tệp nào?",
+        "options": {
+          "A": "/etc/apache2/apache2.conf",
+          "B": "/etc/apache.conf",
+          "C": "/etc/apache2/httpd.conf",
+          "D": "/var/www/apache.conf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "text": "Tập tin nhật ký (log) cho biết toàn bộ các lỗi và mức độ cảnh báo mà dịch vụ Web Apache gặp phải khi xử lý các yêu cầu truy nhập là",
+        "options": {
+          "A": "access.log",
+          "B": "apache.log",
+          "C": "error.log",
+          "D": "web.log"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "text": "Câu lệnh nào sau đây cho phép người dùng sử dụng được thư mục chia sẻ sharedFolder của máy chủ FileServer qua dịch vụ NFS",
+        "options": {
+          "A": "sudo mount FileServer:/sharedFolder /home/networkedFolder",
+          "B": "sudo nfsmount FileServer:/sharedFolder /home/networkedFolder",
+          "C": "sudo mountnfs FileServer:/sharedFolder /home/networkedFolder",
+          "D": "sudo nfs FileServer:/sharedFolder /home/networkedFolder"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 6,
+        "text": "Cơ chế nào cho phép người dùng SSH xác thực mà không phải nhập mật khẩu tài khoản ở mỗi lần đăng nhập?",
+        "options": {
+          "A": "Xác thực bằng khóa công khai",
+          "B": "Chỉ mã hóa dữ liệu đường truyền",
+          "C": "Gửi mật khẩu dưới dạng mã hóa đối xứng",
+          "D": "Tắt hoàn toàn cơ chế xác thực"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 7,
+        "text": "Lệnh nào thêm địa chỉ 192.168.10.5/24 vào giao diện eth0 theo cú pháp iproute2?",
+        "options": {
+          "A": "ip addr add 192.168.10.5/24 dev eth0",
+          "B": "ipconfig eth0 192.168.10.5",
+          "C": "netstat add 192.168.10.5 eth0",
+          "D": "route addr eth0 192.168.10.5"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 8,
+        "text": "Lệnh nào hiển thị các cổng TCP UDP đang lắng nghe cùng thông tin dạng số trên Linux hiện đại?",
+        "options": {
+          "A": "ip addr",
+          "B": "ifconfig",
+          "C": "ss -tuln",
+          "D": "route -n"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 9,
+        "text": "Lệnh iproute2 nào thêm tuyến đến mạng 192.168.10.0/24 qua gateway 172.16.10.140?",
+        "options": {
+          "A": "ip route add 192.168.10.0/24 via 172.16.10.140",
+          "B": "ip route add 192.168.10.0/25 via 172.16.10.140",
+          "C": "ip addr add 192.168.10.0/24 dev 172.16.10.140",
+          "D": "route del 192.168.10.0/24"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 10,
+        "text": "Lệnh iproute2 nào thiết lập default gateway là 172.16.8.2?",
+        "options": {
+          "A": "ip route add default via 172.16.8.2",
+          "B": "ip addr add default 172.16.8.2",
+          "C": "ss route 172.16.8.2",
+          "D": "ip route add 172.16.8.2/32 dev default"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 11,
+        "text": "Dịch vụ SMTP chạy ở port nào:",
+        "options": {
+          "A": "22",
+          "B": "24",
+          "C": "23",
+          "D": "25"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 12,
+        "text": "Trong DNS, máy chủ chứa bản gốc có thể chỉnh sửa của dữ liệu zone được gọi là gì?",
+        "options": {
+          "A": "Caching-only server",
+          "B": "Secondary server",
+          "C": "Primary hoặc master server",
+          "D": "Forward-only client"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 13,
+        "text": "Máy chủ thư nào đóng vai trò trung gian tiếp nhận và chuyển thư giữa các hệ thống thư?",
+        "options": {
+          "A": "Mailbox",
+          "B": "Mail host hoặc mail relay",
+          "C": "Mail client",
+          "D": "POP client"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 14,
+        "text": "Trong SOA record, trường serial có ý nghĩa gì?",
+        "options": {
+          "A": "Thời gian một bản ghi tồn tại trong cache",
+          "B": "Chu kỳ retry của slave server",
+          "C": "Số phiên bản của dữ liệu zone để nhận biết thay đổi",
+          "D": "Cổng dịch vụ DNS"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 15,
+        "text": "Dịch vụ SSH trong Linux là gì?",
+        "options": {
+          "A": "Secure Socket Shell",
+          "B": "Secure Shell",
+          "C": "Samba Shell",
+          "D": "Không là dịch vụ gì cả"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 16,
+        "text": "Trong dịch vụ httpd (Apache), để xây dựng \"máy Web ảo\", ta cần chỉ khối dẫn nào?",
+        "options": {
+          "A": "Directory",
+          "B": "VirtualMachine",
+          "C": "VirtualHost",
+          "D": "Tất cả đều sai"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 17,
+        "text": "Tham số net.ipv4.ip_forward dùng để bật chuyển tiếp gói IPv4 thường được lưu bền vững trong tệp nào?",
+        "options": {
+          "A": "/etc/sysctl.conf",
+          "B": "/etc/services",
+          "C": "/etc/hosts",
+          "D": "/etc/fstab"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 18,
+        "text": "Lệnh nào kiểm tra cú pháp cấu hình Apache2 trên Ubuntu?",
+        "options": {
+          "A": "apache2ctl configtest",
+          "B": "apache2 -checkfile",
+          "C": "systemctl test apache2",
+          "D": "httpd syntax on"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 19,
+        "text": "Máy có địa chỉ 192.168.1.2/24. Địa chỉ mạng và địa chỉ broadcast tương ứng là gì?",
+        "options": {
+          "A": "Network 192.168.1.0; Broadcast 192.168.1.255",
+          "B": "Network 192.168.1.1; Broadcast 192.168.1.254",
+          "C": "Network 192.168.0.0; Broadcast 192.168.255.255",
+          "D": "Network 192.168.1.2; Broadcast 192.168.1.2"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 20,
+        "text": "Trên Ubuntu Server, tệp cấu hình chính của BIND9 là tệp nào?",
+        "options": {
+          "A": "/etc/bind/named.conf",
+          "B": "/etc/named.conf",
+          "C": "/etc/dns.conf",
+          "D": "/var/named.conf"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 21,
+        "text": "Apache VirtualHost có thể phân biệt các website dựa trên những thông tin nào?",
+        "options": {
+          "A": "Địa chỉ IP",
+          "B": "Tên máy chủ hostname",
+          "C": "Địa chỉ MAC",
+          "D": "Cả địa chỉ IP và hostname"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 22,
+        "text": "Lệnh ... để kiểm tra lỗi về cú pháp trong tập tin cấu hình smb.conf của dịch vụ SAMBA",
+        "options": {
+          "A": "test",
+          "B": "smbstatus",
+          "C": "testparm",
+          "D": "status"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 23,
+        "text": "Điểm khác biệt quan trọng giữa Telnet và SSH là gì?",
+        "options": {
+          "A": "Telnet mã hóa dữ liệu còn SSH không mã hóa",
+          "B": "SSH mã hóa dữ liệu truyền trên mạng còn Telnet truyền dữ liệu dạng rõ",
+          "C": "SSH chỉ hoạt động trên Linux",
+          "D": "Telnet an toàn hơn SSH"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 24,
+        "text": "Lệnh nào dùng để kiểm tra cú pháp tổng thể của cấu hình BIND trước khi khởi động dịch vụ?",
+        "options": {
+          "A": "named-checkconf",
+          "B": "systemctl status bind9",
+          "C": "named-checkzone",
+          "D": "dig"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 25,
+        "text": "Tệp cấu hình chính của Postfix thường nằm ở đâu?",
+        "options": {
+          "A": "/var/log/mail",
+          "B": "/usr/local/postfix",
+          "C": "/etc/postfix/main.cf",
+          "D": "/home/mail"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sao lưu, bảo mật và giám sát Linux",
+    "questions": [
+      {
+        "number": 1,
+        "text": "Linux thường sử dụng các hệ thống quản lý gói như RPM và dpkg để cài đặt, nâng cấp hoặc gỡ bỏ phần mềm.",
+        "options": {
+          "A": "Đúng",
+          "B": "Sai"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "text": "Công cụ nào thực hiện sao lưu ở mức hệ thống tệp và thường được dùng cùng với lệnh restore?",
+        "options": {
+          "A": "backup",
+          "B": "tar",
+          "C": "dump",
+          "D": "shadow"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "text": "Để tăng khả năng phục hồi sau thảm họa, bản sao lưu quan trọng nên được lưu theo cách nào?",
+        "options": {
+          "A": "Chỉ lưu trên một ổ cứng gắn trong cùng máy",
+          "B": "Chỉ lưu trên băng từ đặt cạnh máy chủ",
+          "C": "Chỉ lưu trên đĩa quang trong phòng máy",
+          "D": "Lưu thêm một bản ở vị trí khác hoặc hệ thống từ xa"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 4,
+        "text": "Công cụ nào thường được dùng để khôi phục bản sao lưu đã tạo bằng lệnh dump?",
+        "options": {
+          "A": "restore",
+          "B": "recovery",
+          "C": "resume",
+          "D": "undelete"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "text": "Trong chế độ Recovery của Ubuntu, lựa chọn nào mở shell quyền root để quản trị viên có thể đặt lại mật khẩu?",
+        "options": {
+          "A": "root: mở shell quyền root",
+          "B": "dpkg: sửa gói phần mềm",
+          "C": "grub: cập nhật trình nạp khởi động",
+          "D": "resume: tiếp tục khởi động bình thường"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 6,
+        "text": "Lệnh nào hiển thị thông tin socket và các cổng mạng đang hoạt động trên Linux hiện đại?",
+        "options": {
+          "A": "ss",
+          "B": "top",
+          "C": "ipconfig",
+          "D": "nslookup"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 7,
+        "text": "Với cú pháp watch truyền thống của auditctl, lệnh “auditctl -w /etc/passwd -p w” theo dõi loại truy cập nào?",
+        "options": {
+          "A": "Mọi thao tác đọc tệp",
+          "B": "Cả đọc và thực thi tệp",
+          "C": "Chỉ thay đổi thuộc tính tệp",
+          "D": "Các thao tác ghi làm thay đổi tệp"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 8,
+        "text": "Mục tiêu chính của việc kiểm toán hệ thống là",
+        "options": {
+          "A": "Phát hiện xâm nhập vào hệ thống quản lý",
+          "B": "Phát hiện việc lây nhiễm các phần mềm độc hại",
+          "C": "Phát hiện các bất thường trong quá trình vận hành hệ thống",
+          "D": "Tất cả các lựa chọn đều đúng"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 9,
+        "text": "Puppet là gì?",
+        "options": {
+          "A": "Trình quản lý tiến trình",
+          "B": "Máy chủ DHCP",
+          "C": "Công cụ tự động hóa quản trị cấu hình",
+          "D": "Công cụ đọc log"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 10,
+        "text": "Phát biểu nào đúng về hai lệnh lập lịch at và batch trong Linux?",
+        "options": {
+          "A": "at chạy công việc tại thời điểm chỉ định; batch chạy khi mức tải hệ thống đủ thấp",
+          "B": "at chỉ chạy khi tải dưới 30%; batch chạy tại thời điểm chỉ định",
+          "C": "batch luôn chạy khi tải dưới 20%; at chạy định kỳ hằng ngày",
+          "D": "at và batch đều chỉ dùng để lập lịch công việc định kỳ"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 11,
+        "text": "SELinux là gì?",
+        "options": {
+          "A": "Trình quản lý SSH",
+          "B": "Máy chủ DHCP",
+          "C": "Hệ thống tệp",
+          "D": "Cơ chế Mandatory Access Control của Linux"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 12,
+        "text": "Lệnh nào liệt kê các luật iptables hiện có?",
+        "options": {
+          "A": "cp",
+          "B": "df -h",
+          "C": "chmod",
+          "D": "iptables -L"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 13,
+        "text": "chroot dùng để làm gì?",
+        "options": {
+          "A": "Giám sát tiến trình",
+          "B": "Chia sẻ thư mục",
+          "C": "Thay đổi thư mục gốc nhìn thấy bởi tiến trình để tạo môi trường hạn chế",
+          "D": "Cấp IP"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 14,
+        "text": "Tệp /etc/ssh/sshd_config dùng để làm gì?",
+        "options": {
+          "A": "Quản lý tệp",
+          "B": "Cấu hình DHCP",
+          "C": "Lưu log chung",
+          "D": "Cấu hình dịch vụ SSH server"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 15,
+        "text": "Lệnh nào hiển thị dung lượng RAM theo định dạng dễ đọc?",
+        "options": {
+          "A": "free -h",
+          "B": "mkdir",
+          "C": "ps aux",
+          "D": "chmod"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 16,
+        "text": "Công cụ nào kiểm tra và sửa lỗi hệ thống tệp khi phân vùng không được mount?",
+        "options": {
+          "A": "fsck",
+          "B": "mkdir",
+          "C": "ps",
+          "D": "chmod"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 17,
+        "text": "Fail2ban bảo vệ hệ thống theo cách nào?",
+        "options": {
+          "A": "Chỉ cấu hình log",
+          "B": "Quản lý cổng vật lý",
+          "C": "Phân tích log và chặn IP có nhiều lần xác thực thất bại",
+          "D": "Kiểm tra hệ thống tệp"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 18,
+        "text": "Công cụ nào có thể dùng để sao chép đồng bộ hoặc đóng gói dữ liệu sao lưu?",
+        "options": {
+          "A": "lsblk",
+          "B": "rsync hoặc tar",
+          "C": "top",
+          "D": "df -h"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 19,
+        "text": "Lệnh nào kiểm tra trạng thái UFW?",
+        "options": {
+          "A": "chmod",
+          "B": "df -h",
+          "C": "ps aux",
+          "D": "ufw status"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 20,
+        "text": "Tệp /etc/security/limits.conf dùng để làm gì?",
+        "options": {
+          "A": "Đặt giới hạn tài nguyên cho người dùng hoặc nhóm",
+          "B": "Cấu hình IP",
+          "C": "Tạo tài khoản",
+          "D": "Quản lý tệp"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 21,
+        "text": "Lệnh nào tạo cặp khóa SSH?",
+        "options": {
+          "A": "df -h",
+          "B": "ssh-keygen",
+          "C": "chmod 600",
+          "D": "mkdir"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 22,
+        "text": "Tệp /etc/audit/audit.rules dùng để làm gì?",
+        "options": {
+          "A": "Chứa dữ liệu người dùng",
+          "B": "Cấu hình mạng",
+          "C": "Quản lý DNS",
+          "D": "Khai báo các quy tắc kiểm toán auditd"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 23,
+        "text": "Trên Ubuntu, nhật ký nào thường chứa thông tin xác thực và đăng nhập?",
+        "options": {
+          "A": "/etc/passwd",
+          "B": "/var/log/auth.log",
+          "C": "/tmp/log",
+          "D": "/usr/bin/users"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 24,
+        "text": "AppArmor cung cấp cơ chế nào?",
+        "options": {
+          "A": "Kiểm soát truy cập ứng dụng theo profile",
+          "B": "Theo dõi băng thông",
+          "C": "Cấu hình firewall NAT",
+          "D": "Quản lý DNS"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 25,
+        "text": "Công cụ nào giám sát hoạt động đọc ghi của thiết bị lưu trữ?",
+        "options": {
+          "A": "ps aux",
+          "B": "top",
+          "C": "iostat",
+          "D": "mkdir"
+        },
+        "answer": "C"
+      }
+    ]
+  }
+]
